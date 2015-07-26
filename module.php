@@ -8,7 +8,7 @@ class disqus {
     
     
     public static function getDisqusThread () {
-        $disqus_short_name = config::getModuleIni('disqus_short_name');
+        $disqus_short_name = conf::getModuleIni('disqus_short_name');
         if (!$disqus_short_name) {
             return '';
         }
