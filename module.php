@@ -1,6 +1,5 @@
 <?php
 
-
 use diversen\conf;
 class disqus {
     
