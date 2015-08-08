@@ -7,7 +7,7 @@ $LANG = array();
 $LANG['Disqus'] = 'Disqus';
 // Translation of file modules/disqus/system_lang.inc
 
-$LANG['disqus_config_description'] = 'disqus_config_description';
+$LANG['Insert disqus on pages'] = 'Insert disqus on pages';
 // Translation of file modules/disqus/configdb.inc
 
 $LANG['Enter your disqus code'] = 'Enter your disqus code';
