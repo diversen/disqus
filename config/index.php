@@ -1,3 +1,0 @@
-<?php
-
-configdb::displayConfig('disqus');

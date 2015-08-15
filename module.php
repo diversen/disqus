@@ -1,12 +1,10 @@
 <?php
 
+namespace modules\disqus;
+
 use diversen\conf;
-class disqus {
-    
-    public function getDisqusHead () {
-        
-    }
-    
+
+class module {
     
     public static function getDisqusThread () {
         $disqus_short_name = conf::getModuleIni('disqus_short_name');
@@ -37,6 +35,5 @@ EOF;
     
     public static function subModulePostContent($options = array ()) {
         return self::getDisqusThread();
-    }
-    
+    }   
 }
