@@ -11,7 +11,7 @@ class module {
         configdb::displayConfig('disqus');
     }
 
-    public function getConfigSetup() {
+    public static function getConfigSetup() {
         return $db_config = array(
             array('name' => 'disqus_short_name',
                 'description' => lang::translate('Enter your disqus code'),
