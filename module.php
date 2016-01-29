@@ -34,6 +34,9 @@ EOF;
     }    
     
     public static function subModulePostContent($options = array ()) {
+        if (!isset($options['mode']) OR $options['mode'] != 'view') {
+            return;
+        }
         return self::getDisqusThread();
     }   
 }
